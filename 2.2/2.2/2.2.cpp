@@ -2,11 +2,13 @@
 #include <deque>
 #include <algorithm>
 
-bool isNegative(int num) {
+bool isNegative(int num) 
+{
     return num < 0;
 }
 
-int main() {
+int main() 
+{
     std::deque<int> D = { 1, -2, 3, -4, 5, -6 };
 
     std::deque<int> D0(D.begin(), D.begin() + D.size() / 2);

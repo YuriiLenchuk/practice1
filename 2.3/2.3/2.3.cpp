@@ -3,7 +3,7 @@
 #include <map>
 
 int main() {
-    std::vector<std::string> V = { "APPLE", "BANANA", "ELEPHANT", "CAT", "DOG" };
+    std::vector<std::string> V = { "APPLE", "BANANA", "ELEPHANT", "CAT", "DOG", "ATOM"};
 
     std::map<char, int> M;
 

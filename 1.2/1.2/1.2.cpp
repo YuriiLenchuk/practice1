@@ -2,7 +2,7 @@
 template<typename T>
 list<T>& unique_rev(list<T>& L1, list<T>& L2)
 {
-    list<T> *rez = new list<T>;
+    list<T>* rez = new list<T>;
     for (const auto& word : L1) {
         bool found = false;
         for (const auto& word2 : L2) {
